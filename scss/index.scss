@@ -1,0 +1,9 @@
+body,html,header,section,div,ul,li,div,a,p,h1{ padding:0; margin:0; font-family:"微软雅黑"}
+li{ list-style:none;}
+a{ text-decoration:none;}
+.f-tr{ text-align: right;}
+.f-tc{ text-align: center;}
+
+.s1{ background: url("img/s1.jpg") center; }
+.s1 img{ position:absolute; top: 50%; left: 50%; margin-left: -545px; margin-top: -240px; opacity: 0; transition: 0.8s 0.8s; }
+.s1.active img{ opacity: 1 }
