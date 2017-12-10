@@ -5,9 +5,6 @@
     <title>Title</title>
     <link href="css/jquery.fullPage.css" rel="stylesheet" type="text/css">
     <link href="css/index.css" rel="stylesheet" type="text/css">
-    <style>
-
-    </style>
 </head>
 <body>
     <!-- 头部导航开始 -->
@@ -27,6 +24,14 @@
                 </ul>
             </nav>
         </div>
+        <div id="bfq-wrapper">
+            <audio id="bfq" preload="auto" controls loop>
+                <source src="bfq/audio.mp3" />
+                <source src="bfq/audio.ogg" />
+                <source src="bfq/audio.wav" />
+                <embed height="50" width="100" src="horse.mp3">
+            </audio>
+        </div>
     </header>
     <!-- 头部导航结束 -->
 
@@ -41,20 +46,20 @@
         </div>
 
         <!-- 第二页 人物 -->
-        <div class="section s2">
+        <div class="section s2 s-video">
             <div class="left">
                 <ul>
-                    <li>
+                    <li resource="http://www.w3school.com.cn/i/movie.ogg">
                         <img class="img-2-1" src="img/img-2-1.png">
                         <div class="f-tc"><p>贾克·乐寇和诺曼•泰勒</p></div>
                         <a href="#"></a>
                     </li>
-                    <li>
+                    <li resource="http://www.w3school.com.cn/i/movie.ogg">
                         <img class="img-2-2" src="img/img-2-2.png">
                         <div class="f-tc"><p>土方巽</p></div>
                         <a href="#"></a>
                     </li>
-                    <li>
+                    <li resource="http://www.w3school.com.cn/i/movie.ogg">
                         <img class="img-2-3" src="img/img-2-3.png">
                         <div class="f-tc"><p>皮娜</p></div>
                         <a href="#"></a>
@@ -70,10 +75,10 @@
         </div>
 
         <!-- 第三页 钢琴-->
-        <div class="section s3">
+        <div class="section s3 s-audio">
             <div class="left">
                 <ul>
-                    <li>
+                    <li resource="bfq/audio.mp3">
                         <div class="img-wrap"><img class="img-3-1" src="img/img-3-1.png"></div>
                         <div>
                             <p class="f-tc">《春》</p>
@@ -81,7 +86,7 @@
                         </div>
                         <a href="#"></a>
                     </li>
-                    <li>
+                    <li resource="bfq/audio.mp3">
                         <div class="img-wrap"><img class="img-3-2" src="img/img-3-2.png"></div>
                         <div>
                             <p class="f-tc">《G小调第三奏鸣曲》</p>
@@ -89,7 +94,7 @@
                         </div>
                         <a href="#"></a>
                     </li>
-                    <li>
+                    <li resource="bfq/audio.mp3">
                         <div class="img-wrap"><img class="img-3-3" src="img/img-3-3.png"></div>
                         <div>
                             <p class="f-tc">《夜曲》第五首<br> John field Nocturnes</p>
@@ -97,7 +102,7 @@
                         </div>
                         <a href="#"></a>
                     </li>
-                    <li>
+                    <li resource="bfq/audio.mp3">
                         <div class="img-wrap"><img class="img-3-4" src="img/img-3-4.png"></div>
                         <div>
                             <p class="f-tc">《K331》</p>
@@ -105,7 +110,7 @@
                         </div>
                         <a href="#"></a>
                     </li>
-                    <li>
+                    <li resource="bfq/audio.mp3">
                         <div class="img-wrap"><img class="img-3-5" src="img/img-3-5.png"></div>
                         <div>
                             <p class="f-tc">《视唱曲》</p>
@@ -124,38 +129,38 @@
         </div>
 
         <!-- 第四页 歌曲-->
-        <div class="section s4">
+        <div class="section s4 s-audio">
             <div class="left">
                 <ul>
-                    <li>
+                    <li resource="bfq/audio.mp3">
                         <div class="img-wrap">
                             <img class="img-4-1" src="img/img-4-1.png">
                         </div>
                         <div class="f-tc"><p>《漫步街上》</p></div>
                         <a href="#"></a>
                     </li>
-                    <li>
+                    <li resource="bfq/audio.mp3">
                         <div class="img-wrap">
                             <img class="img-4-2" src="img/img-4-2.png">
                         </div>
                         <div class="f-tc"><p>《我亲爱的爸爸》</p></div>
                         <a href="#"></a>
                     </li>
-                    <li>
+                    <li resource="bfq/audio.mp3">
                         <div class="img-wrap">
                         <img class="img-4-3" src="img/img-4-3.png">
                         </div>
                         <div class="f-tc"><p>《我爱你中国》</p></div>
                         <a href="#"></a>
                     </li>
-                    <li>
+                    <li resource="bfq/audio.mp3">
                         <div class="img-wrap">
                         <img class="img-4-5" src="img/img-4-5.png">
                         </div>
                         <div class="f-tc"><p>《费加罗的婚礼》</p></div>
                         <a href="#"></a>
                     </li>
-                    <li>
+                    <li resource="bfq/audio.mp3">
                         <div class="img-wrap">
                         <img class="img-4-4" src="img/img-4-4.png">
                         </div>
@@ -279,7 +284,11 @@
             <div class="bg"><img src="img/sc7.png"></div>
         </div>
     </div>
+    <div class="video-wrap">
+        <div class="close-btn">CLOSE</div>
+    </div>
     <script src="js/jquery.fullPage.min.js"></script>
+
 <script>
     $(function(){
         $('.con').fullpage({
@@ -288,8 +297,36 @@
             menu: '.menu',
             navigationTooltips: ['Home','Character','Piano','Song','Drama', 'Dance', 'melodrama'],
             verticalCentered:false,
+            afterLoad: function (anchorLink, index) {
+                console.log(index);
+                if(index==3||index==4){
+                    $('#bfq-wrapper').fadeIn();
+                }else{
+                    $('#bfq-wrapper').fadeOut();
+                    //document.getElementById('bfq').pause();
+                }
+            }
 
         });
+        $('.section.s-audio').on('click','li',function(){
+            $('.section.s-audio li').removeClass('rolling');
+            $(this).addClass('rolling')
+            var src = $(this).attr('resource');
+            var audio =   document.getElementById('bfq');
+            audio.src = src;
+            audio.play();
+        });
+        $('.section.s-video').on('click','li',function(){
+            var src = $(this).attr('resource');
+            if($('#video').length!=0){
+                $('#video').remove();
+            }
+            $('.video-wrap').append("<iframe id='video' width=100% height=100% src="+src+"></iframe>").show();
+        })
+        $('.video-wrap').on('click','.close-btn',function(){
+            $('#video').remove();
+            $('.video-wrap').hide();
+        })
 
     });
 </script>

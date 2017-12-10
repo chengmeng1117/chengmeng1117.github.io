@@ -19,6 +19,8 @@ a{ text-decoration:none;}
 .section .right a{ color:#333;  text-decoration:underline; cursor: pointer }
 .section .right a:hover{ text-decoration:none;}
 .section .bg{ position: absolute; bottom: 0; right: 0; z-index: 1 }
+.section.s-audio.active .left li.rolling .img-wrap{ -webkit-animation: rolling 4s 0s linear infinite; animation: rolling 4s 0s linear infinite;}
+
 
 .s2{ background: url("../img/s2.jpg") center }
 .s2 .left li{ -webkit-transform: translateY(1000px); transform: translateY(1000px); }
@@ -37,13 +39,13 @@ a{ text-decoration:none;}
     background: repeating-radial-gradient( #333, #333 2px, #111 3px );
     border-radius: 50%;
     text-align: center;
-    width: 100px;
-    height: 100px;
-    padding: 70px;
-}
-.s3 .left li img{
     width: 80px;
     height: 80px;
+    padding: 50px;
+}
+.s3 .left li img{
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     padding: 10px;
     background: #111;
@@ -71,26 +73,26 @@ a{ text-decoration:none;}
     background: repeating-radial-gradient( #333, #333 2px, #111 3px );
     border-radius: 50%;
     text-align: center;
-    width: 100px;
-    height: 100px;
-    padding: 70px;
-}
-.s4 .left li img{
     width: 80px;
     height: 80px;
+    padding: 50px;
+}
+.s4 .left li img{
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     padding: 10px;
     background: #111;
     border: 0px solid #333;}
-.s4 .left li:nth-child(1){ -webkit-transform: translate(440px,-1000px); transform: translate(440px,-1000px) }
+.s4 .left li:nth-child(1){ -webkit-transform: translate(400px,-1000px); transform: translate(400px,-1000px) }
 .s4.active .left li:nth-child(1){ -webkit-animation: move1 2s 0.8s forwards; animation: move1 2s 0.8s forwards }
-.s4 .left li:nth-child(2){ -webkit-transform: translate(220px,-1000px); transform: translate(220px,-1000px) }
+.s4 .left li:nth-child(2){ -webkit-transform: translate(200px,-1000px); transform: translate(200px,-1000px) }
 .s4.active .left li:nth-child(2){ -webkit-animation: move2 2s 0.8s forwards; animation: move2 2s 0.8s forwards }
 .s4 .left li:nth-child(3){ -webkit-transform: translate(0,-1000px); transform: translate(0,-1000px) }
 .s4.active .left li:nth-child(3){ -webkit-animation: move3 2s 0.8s forwards; animation: move3 2s 0.8s forwards }
-.s4 .left li:nth-child(4){ -webkit-transform: translate(-220px,-1000px); transform: translate(-220px,-1000px) }
+.s4 .left li:nth-child(4){ -webkit-transform: translate(-200px,-1000px); transform: translate(-200px,-1000px) }
 .s4.active .left li:nth-child(4){ -webkit-animation: move4 2s 0.8s forwards; animation: move4 2s 0.8s forwards }
-.s4 .left li:nth-child(5){ -webkit-transform: translate(-440px,-1000px); transform: translate(-440px,-1000px) }
+.s4 .left li:nth-child(5){ -webkit-transform: translate(-400px,-1000px); transform: translate(-400px,-1000px) }
 .s4.active .left li:nth-child(5){ -webkit-animation: move5 2s 0.8s forwards; animation: move5 2s 0.8s forwards }
 .s4 .right{ opacity: 0; transition: 0.8s 2.5s}
 .s4.active .right{ opacity: 1 }
@@ -149,17 +151,17 @@ a{ text-decoration:none;}
 
 
 @-webkit-keyframes move1 {
-    0%{ -webkit-transform: translate(440px,-1000px); transform: translate(440px,-1000px) }
-    20%{ -webkit-transform: translate(440px,0); transform: translate(440px,0) }
-    40%{ -webkit-transform: translate(440px,-50px); transform: translate(440px,-50px) }
-    60%{ -webkit-transform: translate(440px,0px); transform: translate(440px,0px) }
+    0%{ -webkit-transform: translate(400px,-1000px); transform: translate(400px,-1000px) }
+    20%{ -webkit-transform: translate(400px,0); transform: translate(400px,0) }
+    40%{ -webkit-transform: translate(400px,-50px); transform: translate(400px,-50px) }
+    60%{ -webkit-transform: translate(400px,0px); transform: translate(400px,0px) }
     100%{ -webkit-transform: translate(0,0); transform: translate(0,0) }
 }
 @-webkit-keyframes move2 {
-    0%{ -webkit-transform: translate(220px,-1000px); transform: translate(220px,-1000px) }
-    20%{ -webkit-transform: translate(220px,0); transform: translate(220px,0) }
-    40%{ -webkit-transform: translate(220px,-50px); transform: translate(220px,-50px) }
-    60%{ -webkit-transform: translate(220px,0px); transform: translate(220px,0px) }
+    0%{ -webkit-transform: translate(200px,-1000px); transform: translate(200px,-1000px) }
+    20%{ -webkit-transform: translate(200px,0); transform: translate(200px,0) }
+    40%{ -webkit-transform: translate(200px,-50px); transform: translate(200px,-50px) }
+    60%{ -webkit-transform: translate(200px,0px); transform: translate(200px,0px) }
     100%{ -webkit-transform: translate(0,0); transform: translate(0,0) }
 }
 @-webkit-keyframes move3 {
@@ -170,31 +172,31 @@ a{ text-decoration:none;}
     100%{ -webkit-transform: translate(0,0) ; transform: translate(0,0)}
 }
 @-webkit-keyframes move4 {
-    0%{ -webkit-transform: translate(-220px,-1000px); transform: translate(-220px,-1000px) }
-    20%{ -webkit-transform: translate(-220px,0); transform: translate(-220px,0) }
-    40%{ -webkit-transform: translate(-220px,-50px); transform: translate(-220px,-50px) }
-    60%{ -webkit-transform: translate(-220px,0px); transform: translate(-220px,0px) }
+    0%{ -webkit-transform: translate(-200px,-1000px); transform: translate(-200px,-1000px) }
+    20%{ -webkit-transform: translate(-200px,0); transform: translate(-200px,0) }
+    40%{ -webkit-transform: translate(-200px,-50px); transform: translate(-200px,-50px) }
+    60%{ -webkit-transform: translate(-200px,0px); transform: translate(-200px,0px) }
     100%{ -webkit-transform: translate(0,0); transform: translate(0,0) }
 }
 @-webkit-keyframes move5 {
-    0%{ -webkit-transform: translate(-440px,-1000px); transform: translate(-440px,-1000px) }
-    20%{ -webkit-transform: translate(-440px,0); transform: translate(-440px,0) }
-    40%{ -webkit-transform: translate(-440px,-50px); transform: translate(-440px,-50px) }
-    60%{ -webkit-transform: translate(-440px,0px); transform: translate(-440px,0px) }
+    0%{ -webkit-transform: translate(-400px,-1000px); transform: translate(-400px,-1000px) }
+    20%{ -webkit-transform: translate(-400px,0); transform: translate(-400px,0) }
+    40%{ -webkit-transform: translate(-400px,-50px); transform: translate(-400px,-50px) }
+    60%{ -webkit-transform: translate(-400px,0px); transform: translate(-400px,0px) }
     100%{ -webkit-transform: translate(0,0); transform: translate(0,0) }
 }
 @keyframes move1 {
-    0%{ transform: translate(440px,-1000px) }
-    20%{ transform: translate(440px,0) }
-    40%{ transform: translate(440px,-50px) }
-    60%{ transform: translate(440px,0px) }
+    0%{ transform: translate(400px,-1000px) }
+    20%{ transform: translate(400px,0) }
+    40%{ transform: translate(400px,-50px) }
+    60%{ transform: translate(400px,0px) }
     100%{ transform: translate(0,0) }
 }
 @keyframes move2 {
-    0%{ transform: translate(220px,-1000px) }
-    20%{ transform: translate(220px,0) }
-    40%{ transform: translate(220px,-50px) }
-    60%{ transform: translate(220px,0px) }
+    0%{ transform: translate(200px,-1000px) }
+    20%{ transform: translate(200px,0) }
+    40%{ transform: translate(200px,-50px) }
+    60%{ transform: translate(200px,0px) }
     100%{ transform: translate(0,0) }
 }
 @keyframes move3 {
@@ -205,16 +207,50 @@ a{ text-decoration:none;}
     100%{ transform: translate(0,0) }
 }
 @keyframes move4 {
-    0%{ transform: translate(-220px,-1000px) }
-    20%{ transform: translate(-220px,0) }
-    40%{ transform: translate(-220px,-50px) }
-    60%{ transform: translate(-220px,0px) }
+    0%{ transform: translate(-200px,-1000px) }
+    20%{ transform: translate(-200px,0) }
+    40%{ transform: translate(-200px,-50px) }
+    60%{ transform: translate(-200px,0px) }
     100%{ transform: translate(0,0) }
 }
 @keyframes move5 {
-    0%{ transform: translate(-440px,-1000px) }
-    20%{ transform: translate(-440px,0) }
-    40%{ transform: translate(-440px,-50px) }
-    60%{ transform: translate(-440px,0px) }
+    0%{ transform: translate(-400px,-1000px) }
+    20%{ transform: translate(-400px,0) }
+    40%{ transform: translate(-400px,-50px) }
+    60%{ transform: translate(-400px,0px) }
     100%{ transform: translate(0,0) }
+}
+@-webkit-keyframes rolling {
+    0%{ -webkit-transform: rotate(0deg); transform: rotate(0deg) }
+    100%{ -webkit-transform: rotate(360deg); transform: rotate(360deg) }
+}
+@keyframes rolling {
+    0%{ transform: rotate(0deg); }
+    100%{ transform: rotate(360deg); }
+}
+
+#bfq-wrapper{
+    position: fixed;
+    top:10px;
+    right:10px;
+    opacity: 0.5;
+    display: none;
+}
+.video-wrap{
+    position:absolute;
+    z-index:100;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: rgba(0,0,0,.8);
+    display: none;
+}
+.video-wrap .close-btn{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    cursor:pointer;
 }
