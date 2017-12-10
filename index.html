@@ -299,22 +299,27 @@
             verticalCentered:false,
             afterLoad: function (anchorLink, index) {
                 console.log(index);
+                document.getElementById('bfq').pause();
+                $('.section.s-audio li').removeClass('rolling');
                 if(index==3||index==4){
                     $('#bfq-wrapper').fadeIn();
                 }else{
                     $('#bfq-wrapper').fadeOut();
-                    document.getElementById('bfq').pause();
                 }
             }
 
         });
         $('.section.s-audio').on('click','li',function(){
-            $('.section.s-audio li').removeClass('rolling');
-            $(this).addClass('rolling')
+            $(this).siblings('li').removeClass('rolling');
+            $(this).toggleClass('rolling')
             var src = $(this).attr('resource');
             var audio =   document.getElementById('bfq');
-            audio.src = src;
-            audio.play();
+            if($(this).hasClass('rolling')){
+                audio.src = src;
+                audio.play();
+            }else{
+                audio.pause();
+            }
         });
         $('.section.s-video').on('click','li',function(){
             var src = $(this).attr('resource');
