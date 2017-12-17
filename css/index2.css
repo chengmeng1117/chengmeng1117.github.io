@@ -99,7 +99,7 @@ a{ text-decoration:none;}
 .s4.active .right{ opacity: 1 }
 
 .s5{ background: url("../img/s5.jpg") center; perspective: 500px;}
-.s5 .left { margin-top: -250px; }
+.s5 .left { margin-top: -150px; }
 .s5 .left ul{ }
 .s5 .left li{ text-align: center; width: 20%;}
 .s5 .left li{ -webkit-transform: translate3d(-1000px,-800px,-500px) rotateX(145deg); transform: translate3d(-1000px,-800px,-500px) rotateX(145deg) }
