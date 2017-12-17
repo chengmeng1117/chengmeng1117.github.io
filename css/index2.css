@@ -21,7 +21,7 @@ a{ text-decoration:none;}
 .section .right a:hover{ text-decoration:none;}
 .section .bg{ position: absolute; bottom: 0; right: 0; z-index: 1 }
 .section.s-audio.active .left li.rolling .img-wrap{ -webkit-animation: rolling 4s 0s linear infinite; animation: rolling 4s 0s linear infinite;}
-
+.section.s2 .right{ position: absolute; left: 350px;border-left:2px solid #000000; border-right:0;padding-left: 10px; text-align: left; top: 50%;margin-top:-200px;z-index: 3; transition: 0.8s }
 
 .s2{ background: url("../img/s3.jpg") center }
 .s2 .left li{ -webkit-transform: translateY(1000px); transform: translateY(1000px); }
