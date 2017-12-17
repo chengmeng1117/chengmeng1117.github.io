@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="576a151c-877b-49fc-89fc-baf0bda81d60" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/sc3-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/wenzi.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/img-5-1.png" afterPath="$PROJECT_DIR$/img/img-5-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/img-5-2.png" afterPath="$PROJECT_DIR$/img/img-5-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/img-5-3.png" afterPath="$PROJECT_DIR$/img/img-5-3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/img-5-4.png" afterPath="$PROJECT_DIR$/img/img-5-4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/img-5-5.png" afterPath="$PROJECT_DIR$/img/img-5-5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/img-6-1.png" afterPath="$PROJECT_DIR$/img/img-6-1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/img-6-2.png" afterPath="$PROJECT_DIR$/img/img-6-2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/s1.jpg" afterPath="$PROJECT_DIR$/img/s1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/sc2.png" afterPath="$PROJECT_DIR$/img/sc2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/sc3.png" afterPath="$PROJECT_DIR$/img/sc3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/sc4.png" afterPath="$PROJECT_DIR$/img/sc4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/sc5.png" afterPath="$PROJECT_DIR$/img/sc5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/sc6.png" afterPath="$PROJECT_DIR$/img/sc6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/sc7.png" afterPath="$PROJECT_DIR$/img/sc7.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index2.css" afterPath="$PROJECT_DIR$/css/index2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,8 +45,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="332" column="79" selection-start-line="332" selection-start-column="79" selection-end-line="332" selection-end-column="79" />
+            <state relative-caret-position="-165">
+              <caret line="276" column="0" selection-start-line="276" selection-start-column="0" selection-end-line="280" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -37,8 +55,8 @@
       <file leaf-file-name="index2.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/index2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="250" column="19" selection-start-line="250" selection-start-column="19" selection-end-line="250" selection-end-column="19" />
+            <state relative-caret-position="1005">
+              <caret line="103" column="42" selection-start-line="103" selection-start-column="42" selection-end-line="103" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -104,14 +122,7 @@
     </navigator>
     <panes>
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chengmeng1117.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scope" />
       <pane id="Scratches" />
@@ -208,6 +219,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="576a151c-877b-49fc-89fc-baf0bda81d60" name="Default" comment="" />
@@ -216,12 +230,12 @@
       <option name="presentableId" value="Default" />
       <updated>1512364490390</updated>
       <workItem from="1512364502081" duration="9452000" />
-      <workItem from="1512888189882" duration="10864000" />
+      <workItem from="1512888189882" duration="14059000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20316000" />
+    <option name="totallyTimeSpent" value="23511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -247,6 +261,14 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -330,16 +352,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="250" column="19" selection-start-line="250" selection-start-column="19" selection-end-line="250" selection-end-column="19" />
+        <state relative-caret-position="1005">
+          <caret line="103" column="42" selection-start-line="103" selection-start-column="42" selection-end-line="103" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="332" column="79" selection-start-line="332" selection-start-column="79" selection-end-line="332" selection-end-column="79" />
+        <state relative-caret-position="-165">
+          <caret line="276" column="0" selection-start-line="276" selection-start-column="0" selection-end-line="280" selection-end-column="29" />
           <folding />
         </state>
       </provider>
