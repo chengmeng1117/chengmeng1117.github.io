@@ -33,7 +33,7 @@ a{ text-decoration:none;}
 .s1 li.active img,.s5 li.active img,.s6 li.active img,.s7 li.active img{ opacity: 1 }
 /*公共*/
 .section{ overflow: hidden  }
-.section .left{ position: absolute; top: 50%; margin-top: -250px; left: 5%;z-index: 2}
+.section .left{ position: absolute; top: 50%; margin-top: -200px; left: 5%;z-index: 2}
 .section .left li{ float: left; margin-right: 20px; transition: 0.8s; cursor:pointer;}
 .section .left li img{ margin-bottom: 10px; border: 10px solid rgba(0, 0, 0, .8); padding: 20px; background-color: #fff;}
 .section .left li p{ margin: 10px 0; font-size: 18px; color:#333 }

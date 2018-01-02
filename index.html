@@ -55,25 +55,20 @@
         <div class="section s2">
             <div class="left">
                 <ul>
-                    <!--<li resource="movie.ogg">-->
-                        <!--<img class="img-2-1" src="img/img-2-1.png">-->
-                        <!--<div class="f-tc"><p>贾克·乐寇和诺曼•泰勒</p></div>-->
+                    <!--<li tab="person1" class="active">-->
+                        <!--<img class="img-2-2" src="img/img-2-2.png">-->
+                        <!--<div class="f-tc"><p>土方巽</p></div>-->
                         <!--<a href="#"></a>-->
                     <!--</li>-->
-                    <li tab="person1" class="active">
-                        <img class="img-2-2" src="img/img-2-2.png">
-                        <div class="f-tc"><p>土方巽</p></div>
-                        <a href="#"></a>
-                    </li>
-                    <li tab="person2">
+                    <li tab="person2" class="active">
                         <img class="img-2-3" src="img/img-2-3.png">
                         <div class="f-tc"><p>Pina Bausch</p></div>
                         <a href="#"></a>
                     </li>
                 </ul>
             </div>
-            <div class="right active" tab="person1"></div>
-            <div class="right" tab="person2">
+            <!--<div class="right active" tab="person1"></div>-->
+            <div class="right active" tab="person2">
                 <h1>Pina Bausch, la mère de la danse contemporaine</h1>
                 <p>Pina Bausch. Pina a changé la manière de s’exprimer avec le langage corporel, en utilisant toutes les expressions et moyens de performance possibles dans l'espace scénique, en explorant les performances dramatiques des acteurs en accord avec des environnements remplis de terre, de fleurs ou de tables et de chaises. Elle a défini sa création comme étant du style "danse-théâtre", elle relie le ballet classique avec la danse moderne et combine la danse et le théâtre.</p>
                 <p>Les caractéristiques suivantes résument la performance scénique de Pina Bausch.</p>
@@ -98,7 +93,6 @@
                             <p class="f-tc">«Sonate pour piano en sol mineur»</p>
                             <p class="f-tc"> —Clementi</p>
                         </div>
-                        <a href="#"></a>
                     </li>
                     <!--视唱曲-->
                     <li resource="https://www.youtube.com/embed/TsjXW60w2Ak" tab="piano2">
@@ -107,7 +101,6 @@
                             <p class="f-tc">«Chants en do mineur»</p>
                             <p class="f-tc"> —Bach</p>
                         </div>
-                        <a href="#"></a>
                     </li>
                     <!--夜曲-->
                     <li resource="https://www.youtube.com/embed/FjLrXRBAzJU" tab="piano3">
@@ -116,7 +109,6 @@
                             <p class="f-tc">《Cinquième "Nocturne"》</p>
                             <p class="f-tc"> —John Field</p>
                         </div>
-                        <a href="#"></a>
                     </li>
                     <!--春-巴赫-->
                     <li resource="https://www.youtube.com/embed/-y4-GTK0yfw" tab="piano4">
@@ -125,7 +117,6 @@
                             <p class="f-tc">«Printemps»</p>
                             <p class="f-tc"> —Bach</p>
                         </div>
-                        <a href="#"></a>
                     </li>
                 </ul>
             </div>
@@ -274,12 +265,10 @@
                     <li resource="https://www.youtube.com/embed/Br0RtFFop9Q" tab="dance1" class="active">
                         <img class="img-6-1" src="img/img-6-1.png">
                         <div class="f-tc"><p>«Je t'attends»</p></div>
-                        <a href="#"></a>
                     </li>
                     <li resource="https://www.youtube.com/embed/ZyLi_IvsJro" tab="dance2">
                         <img class="img-6-2" src="img/img-6-2.png">
                         <div class="f-tc"><p>«Danseur solitaire»</p></div>
-                        <a href="#"></a>
                     </li>
 <!--                    <li resource="https://www.youtube.com/embed/8zBpx-_UceQ">
                         <img class="img-6-2" src="img/img-6-2.png">
@@ -289,12 +278,10 @@
                     <li resource="" tab="dance3">
                         <img class="img-6-3" src="img/img-6-3.png">
                         <div class="f-tc"><p>«La saison des récoltes»</p></div>
-                        <a href="#"></a>
                     </li>
                     <li resource="https://www.youtube.com/embed/2lizDDqgsJQ" tab="dance4">
                         <img class="img-6-4" src="img/img-6-4.png">
                         <div class="f-tc"><p>«Paysage»</p></div>
-                        <a href="#"></a>
                     </li>
                 </ul>
             </div>
@@ -332,17 +319,14 @@
                     <li resource="" tab="opera1" class="active">
                         <img class="img-7-3" src="img/img-7-3.png">
                         <div class="f-tc"><p>«Cats»</p></div>
-                        <a href="#"></a>
                     </li>
                     <li resource="https://www.youtube.com/embed/U3uUmFkoEcw" tab="opera2">
                         <img class="img-7-2" src="img/img-7-2.png">
                         <div class="f-tc"><p>«MAMA MIA»</p></div>
-                        <a href="#"></a>
                     </li>
                     <li resource="" tab="opera3">
                         <img class="img-7-4" src="img/img-7-4.png">
                         <div class="f-tc"><p>«Chicago»</p></div>
-                        <a href="#"></a>
                     </li>
                 </ul>
             </div>
@@ -374,6 +358,7 @@
             navigation: true,
             anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7'],
             menu: '.menu',
+            normalScrollElements:'.right',
             navigationTooltips: ['Home','Character','Piano','Song','Drama', 'Dance', 'melodrama'],
             verticalCentered:false,
             afterLoad: function (anchorLink, index) {
