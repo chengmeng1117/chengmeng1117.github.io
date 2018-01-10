@@ -51,7 +51,7 @@
             <img src="img/s1.jpg">
         </div>
 
-        <!-- 第二页 人物 -->
+        <!-- 第二页 人物 √ -->
         <div class="section s2">
             <div class="left">
                 <ul>
@@ -82,7 +82,7 @@
             <div class="bg"><img src="img/sc2.png"></div>
         </div>
 
-        <!-- 第三页 钢琴-->
+        <!-- 第三页 钢琴 √ -->
         <div class="section s3 s-video s-audio">
             <div class="left">
                 <ul>
@@ -106,7 +106,7 @@
                     <li resource="https://www.youtube.com/embed/FjLrXRBAzJU" tab="piano3">
                         <div class="img-wrap"><img class="img-3-3" src="img/img-3-3.png"></div>
                         <div>
-                            <p class="f-tc">《Cinquième "Nocturne"》</p>
+                            <p class="f-tc">«Cinquième "Nocturne"»</p>
                             <p class="f-tc"> —John Field</p>
                         </div>
                     </li>
@@ -139,7 +139,7 @@
             <div class="bg"><img src="img/sc3.png"></div>
         </div>
 
-        <!-- 第四页 歌曲-->
+        <!-- 第四页 歌曲 3 -->
         <div class="section s4 s-video s-audio">
             <div class="left">
                 <ul>
@@ -148,10 +148,9 @@
                         <div class="img-wrap">
                         <img class="img-4-5" src="img/img-4-5.png">
                         </div>
-                        <div class="f-tc"><p>《费加罗的婚礼》</p></div>
+                        <div class="f-tc"><p>«费加罗的婚礼»</p></div>
                         <a href="#"></a>
                     </li>-->
-                    <!--夏季里-->
                     <!--我爱你中国-->
                     <li resource="https://www.youtube.com/embed/_XVZEFkdotg" tab="chanson2" class="active">
                         <div class="img-wrap">
@@ -165,7 +164,7 @@
                         <div class="img-wrap">
                         <img class="img-4-5" src="img/img-4-5.png">
                         </div>
-                        <div class="f-tc"><p>《费加罗的婚礼》</p></div>
+                        <div class="f-tc"><p>«费加罗的婚礼»</p></div>
                         <a href="#"></a>
                     </li>-->
                     <!--夏季里-->
@@ -185,13 +184,13 @@
                         <a href="#"></a>
                     </li>
                     <!--漫步街上-->
-                    <li resource="https://www.youtube.com/embed/ZyOR5sQUItA" tab="chanson6">
+<!--                    <li resource="https://www.youtube.com/embed/ZyOR5sQUItA" tab="chanson6">
                         <div class="img-wrap">
                             <img class="img-4-1" src="img/img-4-1.png">
                         </div>
                         <div class="f-tc"><p>«Quando men vo»</p></div>
                         <a href="#"></a>
-                    </li>
+                    </li>-->
                 </ul>
             </div>
             <div class="right" tab="chanson1">
@@ -272,7 +271,7 @@
                     </li>
 <!--                    <li resource="https://www.youtube.com/embed/8zBpx-_UceQ">
                         <img class="img-6-2" src="img/img-6-2.png">
-                        <div class="f-tc"><p>《寂寞舞者2》<br>有两个版本</p></div>
+                        <div class="f-tc"><p>«寂寞舞者2»<br>有两个版本</p></div>
                         <a href="#"></a>
                     </li>-->
                     <li resource="" tab="dance3">
@@ -313,7 +312,7 @@
                 <ul>
                     <!--<li resource="">-->
                         <!--<img class="img-7-1" src="img/img-7-1.png">-->
-                        <!--<div class="f-tc"><p>《The Phantom Of the Opera》</p></div>-->
+                        <!--<div class="f-tc"><p>«The Phantom Of the Opera»</p></div>-->
                         <!--<a href="#"></a>-->
                     <!--</li>-->
                     <li resource="" tab="opera1" class="active">
@@ -408,6 +407,9 @@
         });
         $('.section.s-video').on('click','li',function(){
             var src = $(this).attr('resource');
+            if(src==''){
+                return ;
+            }
             if($('#video').length!=0){
                 $('#video').remove();
             }
