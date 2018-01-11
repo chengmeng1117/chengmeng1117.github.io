@@ -1,45 +1,24 @@
 
-adds:
-
-https://www.youtube.com/watch?v=3VQFbprBhdI&t=3s
-https://www.youtube.com/embed/3VQFbprBhdI
-
-https://www.youtube.com/watch?v=7hp95iWNa60
-https://www.youtube.com/embed/7hp95iWNa60
-
-https://www.youtube.com/watch?v=4Y2ovDwN9IU
-https://www.youtube.com/embed/4Y2ovDwN9IU
-
-https://www.youtube.com/watch?v=NUv9uDBrSOs&t=4s
-https://www.youtube.com/embed/NUv9uDBrSOs
-
-https://www.youtube.com/watch?v=eaFsW_qtKKA
-https://www.youtube.com/embed/eaFsW_qtKKA
-
-https://www.youtube.com/watch?v=FX4Hzw9obZg&t=1s
-https://www.youtube.com/embed/FX4Hzw9obZg
-
-https://www.youtube.com/watch?v=xWa7_eoKikI
-https://www.youtube.com/embed/xWa7_eoKikI
-
-https://www.youtube.com/watch?v=yQk6_kL0AjM&t=14s
-https://www.youtube.com/embed/yQk6_kL0AjM
-
-https://www.youtube.com/watch?v=GJ5WvtkJPfc&t=18s
-https://www.youtube.com/embed/GJ5WvtkJPfc
-
-https://www.youtube.com/watch?v=MwbvMniStc0
-https://www.youtube.com/embed/MwbvMniStc0
 
 
 
 ===========话剧==============
 无人生还
+
 妻妾成群
-荒原鱼人
+    https://www.youtube.com/watch?v=3VQFbprBhdI&t=3s
+    https://www.youtube.com/embed/3VQFbprBhdI
+荒原与人
+    https://www.youtube.com/watch?v=4Y2ovDwN9IU
+    https://www.youtube.com/embed/4Y2ovDwN9IU
+原创歌舞剧(大纲外)
+    https://www.youtube.com/watch?v=7hp95iWNa60
+    https://www.youtube.com/embed/7hp95iWNa60
 
 ===========舞蹈==============
 我等你
+    https://www.youtube.com/watch?v=FX4Hzw9obZg&t=1s
+    https://www.youtube.com/embed/FX4Hzw9obZg
 寂寞舞者
     https://www.youtube.com/watch?v=ZyLi_IvsJro&index=9&list=UUOxj9VsQ5vCs7qq5yq0D0OA
     https://www.youtube.com/embed/ZyLi_IvsJro
@@ -58,31 +37,40 @@ https://www.youtube.com/embed/MwbvMniStc0
 现代舞组合
     https://www.youtube.com/watch?v=Br0RtFFop9Q&index=6&list=UUOxj9VsQ5vCs7qq5yq0D0OA
     https://www.youtube.com/embed/Br0RtFFop9Q
-    https://www.youtube.com/watch?v=lhKCjAJO1Cg&list=UUOxj9VsQ5vCs7qq5yq0D0OA&index=7
-    https://www.youtube.com/embed/lhKCjAJO1Cg
+        https://www.youtube.com/watch?v=lhKCjAJO1Cg&list=UUOxj9VsQ5vCs7qq5yq0D0OA&index=7
+        https://www.youtube.com/embed/lhKCjAJO1Cg
+            https://www.youtube.com/watch?v=xWa7_eoKikI
+            https://www.youtube.com/embed/xWa7_eoKikI
 基本功汇报
     https://www.youtube.com/watch?v=4Q0u6W4YxFY&list=UUOxj9VsQ5vCs7qq5yq0D0OA&index=11
     https://www.youtube.com/embed/4Q0u6W4YxFY
+        https://www.youtube.com/watch?v=eaFsW_qtKKA
+        https://www.youtube.com/embed/eaFsW_qtKKA
 芭蕾舞训练
     https://www.youtube.com/watch?v=E8PmrqlF6kw&feature=youtu.be
     https://www.youtube.com/embed/E8PmrqlF6kw
+        https://www.youtube.com/watch?v=MwbvMniStc0
+        https://www.youtube.com/embed/MwbvMniStc0
 结业晚会视频
     --
 101快闪（大纲外）
     https://www.youtube.com/watch?v=ulPOAQduhpg&list=UUOxj9VsQ5vCs7qq5yq0D0OA&index=13
     https://www.youtube.com/embed/ulPOAQduhpg
 
-===========音乐剧============
+
+
+===========音乐剧============√
 猫
+    https://www.youtube.com/watch?v=GJ5WvtkJPfc&t=18s
+    https://www.youtube.com/embed/GJ5WvtkJPfc
 妈妈咪呀
     https://www.youtube.com/watch?v=U3uUmFkoEcw&list=UUOxj9VsQ5vCs7qq5yq0D0OA&index=19
     https://www.youtube.com/embed/U3uUmFkoEcw
 芝加哥
-===========合唱考试===========
-乘着歌声的翅膀
-在那银色月光下
-送别
-===========声乐歌曲考试========
+    https://www.youtube.com/watch?v=yQk6_kL0AjM&t=14s
+    https://www.youtube.com/embed/yQk6_kL0AjM
+
+===========声乐歌曲考试========√
 派翠西亚·凯思
 我爱你中国
     https://www.youtube.com/watch?v=_XVZEFkdotg&list=UUOxj9VsQ5vCs7qq5yq0D0OA&index=16
@@ -94,9 +82,15 @@ https://www.youtube.com/embed/MwbvMniStc0
 我亲爱的爸爸（咏叹调）
     https://www.youtube.com/watch?v=blmf6a7fuXQ&feature=youtu.be
     https://www.youtube.com/embed/blmf6a7fuXQ
-    https://www.youtube.com/watch?v=blmf6a7fuXQ&feature=youtu.be
-    https://www.youtube.com/embed/blmf6a7fuXQ
+    https://www.youtube.com/watch?v=ZyOR5sQUItA&list=UUOxj9VsQ5vCs7qq5yq0D0OA&index=18
+    https://www.youtube.com/embed/ZyOR5sQUItA
 漫步街上
+=============合唱考试==========√
+乘着歌声的翅膀
+在那银色月光下
+送别(长亭外)
+https://www.youtube.com/watch?v=NUv9uDBrSOs&t=4s
+https://www.youtube.com/embed/NUv9uDBrSOs
 
 ===========钢琴曲=============√
 克莱门第
