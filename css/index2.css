@@ -30,8 +30,8 @@ a{ text-decoration:none;}
 .s1{ background: url("../img/s1.jpg") center; }
 .s1 img{height: 100%;}
 /*.s1 img{ position:absolute; top: 50%; left: 50%; margin-left: -545px; margin-top: -240px; opacity: 0; transition: 0.8s 0.8s; }*/
-.s1 img,.s5 img,.s6 img,.s7 img{width:100%; transition: 0.8s 0.8s; opacity: 0.3; transition: opacity 0.1s; }
-.s1 li.active img,.s5 li.active img,.s6 li.active img,.s7 li.active img{ opacity: 1 }
+.s1 img,.s5 img,.s6 img,.s7 img,.s9 img{width:100%; transition: 0.8s 0.8s; opacity: 0.3; transition: opacity 0.1s; }
+.s1 li.active img,.s5 li.active img,.s6 li.active img,.s7 li.active img,.s9 li.active img{ opacity: 1 }
 /*公共*/
 .section{ overflow: hidden  }
 .section .left{ position: absolute; top: 50%; margin-top: -200px; left: 5%;z-index: 2; width:90%;}
@@ -60,9 +60,10 @@ a{ text-decoration:none;}
 .s2 .left li:nth-child(2){ transition-delay: 0s }
 .s2 .left li:nth-child(3){ transition-delay: 0s }
 .s2.active .left li{ -webkit-transform: translateY(0); transform: translateY(0); }
-.s2 .right{opacity:0; -webkit-transform: translateY(-500px);  transform: translateY(-500px); transition-delay: 0s; transition: opacity 2s;}
+.s2 .right{opacity:0; -webkit-transform: translateY(-500px);  transform: translateY(-500px); transition-delay: 0s; transition: opacity 1s;}
 .s2 .right{ -webkit-transform: translateY(-500px);  transform: translateY(-500px); transition-delay: 0.7s}
-.s2.active .right{ -webkit-transform: translateY(0); transform: translateY(0); opacity:1;}
+.s2.active .right{ -webkit-transform: translateY(0); transform: translateY(0); opacity:0;z-index:1;}
+.s2.active .right.active{opacity:1; z-index:2;}
 .s2 .left li img{ width: 70%; }
 .s2 .right{ position: absolute; left: 20%;border-left:2px solid #000000; border-right:0;padding-left: 10px; text-align: left; top: 100px; bottom: 5%;z-index: 3; background: #ffffffba; overflow:auto;}
 
@@ -102,7 +103,7 @@ a{ text-decoration:none;}
 .s4.active .left li:nth-child(6){ -webkit-animation: move6 2s 0.3s forwards; animation: move6 2s 0.3s forwards }
 
 
-.s5{ background: url("../img/s5.jpg") center; perspective: 500px;}
+.s5{ background: url("../img/s4.jpg") center; perspective: 500px;}
 .s5 .left li{ text-align: center; width: 20%;}
 .s5 .left li{ -webkit-transform: translate3d(-1000px,-800px,-500px) rotateX(145deg); transform: translate3d(-1000px,-800px,-500px) rotateX(145deg) }
 .s5.active .left li:nth-child(1){ -webkit-transform: translate3d(0,0,0) rotateX(0deg); transform: translate3d(0,0,0) rotateX(0deg); transition-delay: 0.2s }
