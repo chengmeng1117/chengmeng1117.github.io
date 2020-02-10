@@ -8,13 +8,13 @@
     <link rel="shortcut icon" type="image/png" href="favicon.ico">
 </head>
 <body>
-
+    <div id="id"></div>
 
 <script>
-if(document.hasOwnProperty("touchstart")){
-    alert('设备支持触屏')
+if("ontouchend" in document){
+    document.getElementById("id").innerText='设备支持触屏'
 }else{
-    alert('设备不支持触屏')
+    document.getElementById("id").innerText='设备不支持触屏'
 }
 </script>
 </body>
